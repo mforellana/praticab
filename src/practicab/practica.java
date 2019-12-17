@@ -29,6 +29,7 @@ public class practica extends javax.swing.JFrame {
 
         btnactivar = new javax.swing.JButton();
         lblmensaje1 = new javax.swing.JLabel();
+        lblmensaje2 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -41,6 +42,8 @@ public class practica extends javax.swing.JFrame {
 
         lblmensaje1.setText("jLabel1");
 
+        lblmensaje2.setText("jLabel1");
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -52,7 +55,9 @@ public class practica extends javax.swing.JFrame {
                         .addComponent(btnactivar, javax.swing.GroupLayout.PREFERRED_SIZE, 148, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(141, 141, 141)
-                        .addComponent(lblmensaje1)))
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(lblmensaje2)
+                            .addComponent(lblmensaje1))))
                 .addContainerGap(164, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
@@ -62,7 +67,9 @@ public class practica extends javax.swing.JFrame {
                 .addComponent(btnactivar, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(44, 44, 44)
                 .addComponent(lblmensaje1)
-                .addContainerGap(161, Short.MAX_VALUE))
+                .addGap(18, 18, 18)
+                .addComponent(lblmensaje2)
+                .addContainerGap(129, Short.MAX_VALUE))
         );
 
         pack();
@@ -70,6 +77,7 @@ public class practica extends javax.swing.JFrame {
 
     private void btnactivarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnactivarActionPerformed
         lblmensaje1.setText("bienbenido");
+        lblmensaje2.setText("hola como te va");
     }//GEN-LAST:event_btnactivarActionPerformed
 
     /**
@@ -110,5 +118,6 @@ public class practica extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnactivar;
     private javax.swing.JLabel lblmensaje1;
+    private javax.swing.JLabel lblmensaje2;
     // End of variables declaration//GEN-END:variables
 }
