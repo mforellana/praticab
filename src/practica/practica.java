@@ -30,6 +30,8 @@ public class practica extends javax.swing.JFrame {
         lblmensaje1 = new javax.swing.JLabel();
         jButton1 = new javax.swing.JButton();
         lblmensaje2 = new javax.swing.JLabel();
+        
+
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -78,6 +80,7 @@ public class practica extends javax.swing.JFrame {
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
        lblmensaje1.setText("Hola amigos");
        lblmensaje2.setText("HOLA MIJINES ");
+        lblmensaje3.setText("BRRRRR")
     }//GEN-LAST:event_jButton1ActionPerformed
 
     /**
