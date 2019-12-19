@@ -80,6 +80,7 @@ public class practica extends javax.swing.JFrame {
         lblmensaje2.setText("hola como te va"); 
         lblmensaje3.setText("como te va");
         System.out.println("hol ........");
+        System.out.println("hola de nuevo");
     }//GEN-LAST:event_btnactivarActionPerformed
 
     /**
